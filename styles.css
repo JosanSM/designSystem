@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500&display=swap');
+
+
+
+html{
+  background-color: #1c2e4a;
+  color: white;
+  font-family: "Red Hat Mono", roboto;
+  font-style: normal;
+  margin-left: 1em;
+}
+
+.section{
+  margin: 8em 0%;
+}
+
+#colors h3{
+  position: absolute;
+  top: 9em;
+}
+
+#colors .color{
+  text-align: center;
+  display: inline-block;
+  margin: 1em 0;
+  position: relative;
+  border: 1px solid white;
+  left: 9vw;
+  padding: 12% 12%;
+}
+
+.color2{
+  background-color: #15141f;
+}
+
+.color3{
+  background-color: #ffe083;
+}
+
+.color4{
+  background-color: #ff0000;
+}
+
+.nav{
+  background-color: #15141f;
+  min-width: 100vw;
+  margin-left: -5vw;
+  height: 3em;
+}
+
+.nav ul li{
+  display: inline;
+}
+
+.nav ul li a{
+  position: relative;
+  top: 0.7em;
+  padding: 0em 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color: #ffe083;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+}
+
+.font{
+  font-weight: 500;
+}
+
+.font1{
+  font-family: 'Red Hat Mono';
+}
+
+
+.font2{
+  font-family: 'Roboto Condensed';
+}
+
+.font3{
+  font-family: 'Source Sans Pro';
+}
+
+#text-size{
+  margin-top: 5em;
+}
